@@ -6,4 +6,5 @@ The goal of this project to is pull configuration infromation from your XMS serv
 This project leverages Docker, XenMobile, NetScaler, PowerShell, XMS REST and NetScaler Nitro/REST APIs.
 
 To get started, we assume you have docker already installed.
+
 1.  Download Dockerfile from the releases page.
