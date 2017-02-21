@@ -18,3 +18,5 @@ Note:  Windows users will need to port the setup.sh script to meet thier needs.
 Running the setup.sh script repeatedly will create multiple xemobilebp container images.  So should not be run unless you need to update your image.
 
 Admins should run "report.sh" for iterative runs of the report.
+
+This projects builds upon the work done by Esther Barthel with CognitionIT.  ( https://github.com/cognitionIT ) We borrowed some of their Nitro PowerShell wrappers in our script.  
