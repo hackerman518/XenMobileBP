@@ -7,4 +7,8 @@ This project leverages Docker, XenMobile, NetScaler, PowerShell, XMS REST and Ne
 
 To get started, we assume you have docker already installed.
 
-1.  Download Dockerfile from the releases page.
+1. Create a directory to store our content needed to run.  
+2. Download Dockerfile from the releases page to our newly created directory.
+3. Modify setup.sh with your environments login information.
+4. Run setup.sh  This will create our XenMobileBP docker container, download and install the Nitro REST APIs, download the latest version our our script and create the report.
+5. To verify our output, our folder should contain an HTML file titled "test.htm".  Double click the file and verify results.
