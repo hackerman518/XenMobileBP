@@ -12,3 +12,9 @@ To get started, we assume you have docker already installed.
 3. Modify setup.sh with your environments login information.
 4. Run setup.sh  This will create our XenMobileBP docker container, download and install the Nitro REST APIs, download the latest version our our script and create the report.
 5. To verify our output, our folder should contain an HTML file titled "test.htm".  Double click the file and verify results.
+
+Note:  Windows users will need to port the setup.sh script to meet thier needs.
+
+Running the setup.sh script repeatedly will create multiple xemobilebp container images.  So should not be run unless you need to update your image.
+
+Admins should run "report.sh" for iterative runs of the report.
