@@ -16,7 +16,7 @@ To get started, we assume you have docker already installed and that you are on 
 6. chmod +x setup.sh
 6. chmod +x report.sh
 6. Run setup.sh  This will create our XenMobileBP docker container, download and install the Nitro REST APIs, download the latest version our our script and create the report.
-7. To verify our output, our folder should contain an HTML file titled "test.htm".  Double click the file and verify results.
+7. Verify that the report was created in teh working folder.  It should contain an HTML file titled "test.htm".  Double click the file and verify results.
 8. Run the following command if you plan to debug on an OS X machine.  This is optional.  This will take a few minutes to compile and install. This is needed if you are using HTTPS as opposed to HTTP.  Note:  This is set in the xmChecker.ps1 script.   brew install curl --with-openssl
 9. Run the following command if you plan to debug on an OS X machine.  This is optional.  Run the following command:   brew link --force curl
 
