@@ -12,9 +12,9 @@ To get started, we assume you have docker already installed and that you are on 
 3. Download Dockerfile, setup.sh and report.sh from the releases link to our newly created directory.
 
 ```diff
-- The Release link should be at the top of this page.
+- The Release link should be at the top of this page.  This is the URL if you received this file from a zip, etc.  https://github.com/mbbowlin/XenMobileBP
 ```
-This is the URL if you received this file from a zip, etc.  https://github.com/mbbowlin/XenMobileBP
+
 4. cd to the new directory in a terminal window if you are not already there or did it in Finder.
 5. Modify setup.sh and report.sh with your environments login information, hostnames, etc.
 6. Run setup.sh  This will create our XenMobileBP docker container, download and install the Nitro REST APIs, download the latest version our our script and create the report.
