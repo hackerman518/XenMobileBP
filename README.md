@@ -5,7 +5,7 @@ The goal of this project to is pull configuration infromation from your XMS serv
 
 This project leverages Docker, XenMobile, NetScaler, PowerShell, XMS REST and NetScaler Nitro/REST APIs.
 
-To get started, we assume you have docker already installed.
+To get started, we assume you have docker already installed and that you are are Mac/OS X.  The container and Dockerfile is cross platform.  The script to launch will need to be ported as it is a bash script.
 
 1. Create a directory to store our content needed to run.  (mkdir NewDirName)
 2. cd to the new directory.  (cd NewDirName)
