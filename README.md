@@ -12,7 +12,7 @@ To get started, we assume you have docker already installed and that you are on 
 3. Download Dockerfile, setup.sh and report.sh from the releases page to our newly created directory.
 
 ```diff
-- The Release link should be at the top of this page.```
+- The Release link should be at the top of this page.
 
 This is the URL if you received this file from a zip, etc.  https://github.com/mbbowlin/XenMobileBP
 4. cd to the new directory in a terminal window if you are not already there or did it in Finder.
