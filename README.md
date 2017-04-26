@@ -9,7 +9,7 @@ To get started, we assume you have docker already installed and that you are on 
 
 1. Create a directory to store our content needed to run.  (mkdir NewDirName)
 2. cd to the new directory.  (cd NewDirName)
-3. Download Dockerfile, setup.sh and report.sh from the releases link to our newly created directory.
+3. Download Dockerfile, setup.sh and report.sh from the releases link (at the top of this page) to our newly created directory.
 4. cd to the new directory in a terminal window if you are not already there.
 5. Modify config.sh with your environments login information, hostnames, etc.  The settings in this file are used by both setup.sh and report.sh
 6. chmod the scripts so that we can execute them:
